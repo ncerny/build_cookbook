@@ -1,0 +1,42 @@
+{
+  "name": "build_cookbook",
+  "description": "A fabulous new cookbook",
+  "long_description": "",
+  "maintainer": "Chef Software Inc",
+  "maintainer_email": "success@chef.io",
+  "license": "apachev2",
+  "platforms": {
+  },
+  "dependencies": {
+    "delivery-truck": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

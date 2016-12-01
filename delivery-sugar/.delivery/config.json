@@ -1,0 +1,16 @@
+{
+    "version": "2",
+    "build_cookbook": {
+        "name": "delivery-sugar-build-cookbook",
+        "path": ".delivery/build_cookbook"
+    },
+    "build_nodes": {},
+    "skip_phases": [
+        "publish",
+        "security",
+        "smoke",
+        "syntax",
+        "quality",
+        "functional"
+    ]
+}
