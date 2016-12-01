@@ -1,0 +1,29 @@
+source 'https://supermarket.chef.io'
+
+metadata
+
+cookbook 'delivery-truck', path: '../cookbooks/delivery-truck'
+cookbook 'delivery-sugar', path: '../cookbooks/delivery-sugar'
+
+group :delivery do
+  cookbook 'delivery_build', path: '../cookbooks/delivery_build'
+  cookbook 'delivery-base', path: '../cookbooks/delivery-base'
+  cookbook 'test', path: './test/fixtures/cookbooks/test'
+end
+
+cookbook 'build-essential', path: '../cookbooks/build-essential'
+cookbook 'chef-ingredient', path: '../cookbooks/chef-ingredient'
+cookbook 'compat_resource', path: '../cookbooks/compat_resource'
+cookbook 'git', path: '../cookbooks/git'
+cookbook 'ohai', path: '../cookbooks/ohai'
+cookbook 'push-jobs', path: '../cookbooks/push-jobs'
+cookbook 'seven_zip', path: '../cookbooks/seven_zip'
+cookbook 'windows', path: '../cookbooks/windows'
+cookbook 'build_cookbook', path: '../cookbooks/build_cookbook'
+cookbook 'chef-sugar', path: '../cookbooks/chef-sugar'
+cookbook 'dmg', path: '../cookbooks/dmg'
+cookbook 'mingw', path: '../cookbooks/mingw'
+cookbook 'packagecloud', path: '../cookbooks/packagecloud'
+cookbook 'runit', path: '../cookbooks/runit'
+cookbook 'yum-epel', path: '../cookbooks/yum-epel'
+
